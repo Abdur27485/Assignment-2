@@ -85,4 +85,18 @@
     .sponsors-container img {
         width: 100px;
     }
+
+    /* newsletter section */
+    .newsletter-section{
+        padding: 40px 5%;
+    }
+    .newsletter-texts p{
+        margin-bottom: 40px;
+    }
+    form input{
+        margin-bottom: 20px;
+    }
+    .form-btn{
+        margin: 0 auto;
+    }
 }
