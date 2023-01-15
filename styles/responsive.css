@@ -1,39 +1,52 @@
 @media screen and (max-width: 576px) {
-    body{
-        text-align: center;
-    }
-    /* Header section */
-    header img{
-        width: 100%;
-    }
-    nav {
-        text-align: center;
-        grid-template-columns: repeat(1, 100%);
+
+    /* common styles */
+    nav,
+    .quick-features,
+    .features-section,
+    .facts-container {
+        grid-template-columns: 1fr;
     }
 
+    .facts-container,
+    .sponsors-container {
+        justify-items: center;
+    }
+
+    header img,
+    .header-texts,
+    .facts-section p,
+    .sponsor-section p {
+        width: 100%;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    /* Header section */
     .nav-links {
-        justify-content: center;
+        text-align: center;
         gap: 20px;
         flex-direction: column;
         padding-top: 40px;
     }
 
-    .header-texts {
-        width: 100%;
-    }
-    .header-texts h1{
+    .header-texts h1 {
         font-size: var(--fs-45);
     }
 
     /* quick-features section */
     .quick-features {
         width: 80%;
-        grid-template-columns: 100%;
         justify-content: center;
     }
-    .quick-features, .quick-features-gallery{
+
+    .quick-features,
+    .quick-features-gallery {
         gap: 10px;
     }
+
     .quick-features-texts {
         padding: 0px;
         margin-top: 20px;
@@ -45,42 +58,33 @@
     }
 
     /* features section */
-    .features-section{
-        grid-template-columns: 100%;
+    .features-section {
         gap: 100px;
     }
-    .feature{
+
+    .feature {
         margin: 0 auto;
     }
-    .feature p{
+
+    .feature p {
         text-align: left;
     }
-    .features-section-banner{
+
+    .features-section-banner {
         grid-row: 1;
     }
 
     /* facts section */
-    .facts-section h1{
+    .facts-section h1 {
         white-space: nowrap;
-    }
-    .facts-section p{
-        width: 100%;
-    }
-    .facts-container{
-        grid-template-columns: 1fr;
-        justify-items: center;
     }
 
     /* sponsors section */
-    .sponsors-container{
+    .sponsors-container {
         grid-template-columns: 1fr 1fr;
-        justify-items: center;
     }
-    .sponsors-container img{
+
+    .sponsors-container img {
         width: 100px;
     }
-    .sponsor-section p{
-        width: 100%;
-    }
-    /* footer section */
 }
