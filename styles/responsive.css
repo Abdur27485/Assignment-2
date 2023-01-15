@@ -42,4 +42,9 @@
     .features-section-banner{
         grid-row: 1;
     }
+
+    /* facts section */
+    .facts-container{
+        grid-template-columns: 1fr;
+    }
 }
