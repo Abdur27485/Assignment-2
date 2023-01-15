@@ -19,6 +19,9 @@
     .sponsor-section p {
         width: 100%;
     }
+    .feature p, .features-details h1 {
+        text-align: left;
+    }
 
     body {
         text-align: center;
@@ -65,11 +68,6 @@
     .feature {
         margin: 0 auto;
     }
-
-    .feature p {
-        text-align: left;
-    }
-
     .features-section-banner {
         grid-row: 1;
     }
