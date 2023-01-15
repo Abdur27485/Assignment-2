@@ -1,11 +1,16 @@
 @media screen and (max-width: 576px) {
+
+            /* Header section */
     nav{
         text-align: center;
         grid-template-columns: repeat(1, 100%);
     }
     .nav-links{
         justify-content: center;
-        gap: 48px;
+        gap: 42px;
         padding-top: 40px;
+    }
+    .header-texts{
+        width: 100%;
     }
 }
