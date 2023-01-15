@@ -30,9 +30,9 @@ header h1{
     font-size: var(--fs-45);
 }
 header img{
+    display: block;
     width: 80%;
-    margin: 50px 0px 0px 10%;
-    border-radius: 8px;
+    margin: 50px auto 0px;
 }
 nav{
     display: grid;
@@ -67,17 +67,57 @@ nav{
     line-height: 26px;
     margin: 30px 0px;
 }
-.header-texts button{
+.btn{
     background-color: var(--bg-orangy);
     color: white;
+    font-weight: 600;
     border-radius: 8px;
     padding: 20px 25px;
     border: 2px solid transparent;
     transition: all 200ms ease-in-out;
 }
-.header-texts button:hover{
+.btn:hover{
     color: var(--bg-orangy);
     background-color: var(--bg-orangy-opacity-10);
     box-shadow: 4px 4px var(--bg-orangy);
     border: 2px solid var(--bg-orangy);
+}
+
+
+        /* Features section */
+.features{
+    width: 70%;
+    margin: 0 auto 130px;
+    align-items: center;
+}
+.features, .features-gallery{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+}
+.features-gallery img{
+    width: 100%;
+}
+.features-texts{
+    padding-left: 30px;
+}
+.features-texts h1{
+    font-size: var(--fs-45);
+    line-height: 53px;
+}
+.features-texts h1 span:first-child{
+    font-weight: 500;
+    color: var(--dark-03);
+}
+.features-texts h1 span:nth-child(2){
+    color: var(--dark-01);
+}
+.features-texts h1 span:last-child{
+    color: var(--bg-orangy);
+}
+.features-texts p{
+    font-size: var(--fs-16);
+    line-height: 26px;
+    color: var(--dark-03);
+    margin: 24px 0px 32px;
 }

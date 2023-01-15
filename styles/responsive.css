@@ -13,4 +13,17 @@
     .header-texts{
         width: 100%;
     }
+
+            /* Features section */
+    .features{
+        grid-template-columns: 100%;
+        justify-content: center;
+    }
+    .features-texts{
+        padding: 0px;
+    }
+    .features-texts button{
+        display: block;
+        margin: 0 auto;
+    }
 }
