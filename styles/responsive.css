@@ -62,14 +62,11 @@
 
     /* features section */
     .features-section {
-        gap: 100px;
+        gap: 50px;
     }
 
     .feature {
         margin: 0 auto;
-    }
-    .features-section-banner {
-        grid-row: 1;
     }
 
     /* facts section */
