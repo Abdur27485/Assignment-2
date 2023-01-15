@@ -1,13 +1,14 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     font-family: 'Work Sans', sans-serif;
 }
 
-    /* CSS Variables */
-:root{
+/* CSS Variables */
+:root {
     --dark-01: #131313;
     --dark-02: #424242;
     --dark-03: #727272;
@@ -19,55 +20,64 @@ body{
     --bg-orangy: #FF900E;
     --bg-orangy-opacity-10: rgba(255, 144, 14, 0.1)
 }
-    /* Header section styles */
-header{
+
+/* Header section styles */
+header {
     background-color: var(--bg-orangy-opacity-10);
     margin-bottom: 80px;
     padding: 50px 10% 40px;
 }
-header h1{
+
+header h1 {
     color: var(--dark-01);
     font-size: var(--fs-45);
 }
-header img{
+
+header img {
     display: block;
     width: 80%;
     margin: 50px auto 0px;
 }
-nav{
+
+nav {
     display: grid;
     grid-template-columns: repeat(2, 50%);
     align-items: center;
     padding-bottom: 80px;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     justify-content: right;
     gap: 32px;
 }
-.nav-links a{
+
+.nav-links a {
     color: var(--dark-02);
     font-size: var(--fs-18);
     font-weight: 500;
     text-decoration: none;
 }
-.header-texts{
+
+.header-texts {
     text-align: center;
     width: 50%;
     margin: 0 auto;
 }
-.header-texts h1{
+
+.header-texts h1 {
     font-size: var(--fs-65);
     line-height: 75px;
 }
-.header-texts p{
+
+.header-texts p {
     font-size: var(--fs-16);
     color: var(--dark-03);
     line-height: 26px;
     margin: 30px 0px;
 }
-.btn{
+
+.btn {
     background-color: var(--bg-orangy);
     color: white;
     font-weight: 600;
@@ -76,7 +86,8 @@ nav{
     border: 2px solid transparent;
     transition: all 200ms ease-in-out;
 }
-.btn:hover{
+
+.btn:hover {
     color: var(--bg-orangy);
     background-color: var(--bg-orangy-opacity-10);
     box-shadow: 4px 4px var(--bg-orangy);
@@ -84,38 +95,47 @@ nav{
 }
 
 
-        /* Features section */
-.features{
+/* quick-features section */
+.quick-features {
     width: 70%;
     margin: 0 auto 130px;
     align-items: center;
 }
-.features, .features-gallery{
+
+.quick-features,
+.quick-features-gallery {
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 20px;
 }
-.features-gallery img{
+
+.quick-features-gallery img {
     width: 100%;
 }
-.features-texts{
+
+.quick-features-texts {
     padding-left: 30px;
 }
-.features-texts h1{
+
+.quick-features-texts h1 {
     font-size: var(--fs-45);
     line-height: 53px;
 }
-.features-texts h1 span:first-child{
+
+.quick-features-texts h1 span:first-child {
     font-weight: 500;
     color: var(--dark-03);
 }
-.features-texts h1 span:nth-child(2){
+
+.quick-features-texts h1 span:nth-child(2) {
     color: var(--dark-01);
 }
-.features-texts h1 span:last-child{
+
+.quick-features-texts h1 span:last-child {
     color: var(--bg-orangy);
 }
-.features-texts p{
+
+.quick-features-texts p {
     font-size: var(--fs-16);
     line-height: 26px;
     color: var(--dark-03);
