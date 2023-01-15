@@ -1,29 +1,45 @@
 @media screen and (max-width: 576px) {
 
-            /* Header section */
-    nav{
+    /* Header section */
+    nav {
         text-align: center;
         grid-template-columns: repeat(1, 100%);
     }
-    .nav-links{
+
+    .nav-links {
         justify-content: center;
         gap: 42px;
         padding-top: 40px;
     }
-    .header-texts{
+
+    .header-texts {
         width: 100%;
     }
 
-            /* Features section */
-    .features{
+    /* quick-features section */
+    .quick-features {
         grid-template-columns: 100%;
         justify-content: center;
     }
-    .features-texts{
+
+    .quick-features-texts {
         padding: 0px;
     }
-    .features-texts button{
+
+    .quick-features-texts button {
         display: block;
         margin: 0 auto;
+    }
+
+    /* features section */
+    .features-section{
+        grid-template-columns: 100%;
+        gap: 100px;
+    }
+    .feature{
+        margin: 0 auto;
+    }
+    .features-section-banner{
+        grid-row: 1;
     }
 }
