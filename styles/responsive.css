@@ -44,7 +44,14 @@
     }
 
     /* facts section */
-    .facts-container{
+    .facts-container, .sponsors-container{
         grid-template-columns: 1fr;
+        justify-items: center;
     }
+
+    /* sponsors section */
+    .sponsor-section p{
+        width: 100%;
+    }
+    /* footer section */
 }

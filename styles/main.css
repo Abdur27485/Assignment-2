@@ -226,7 +226,7 @@ h2 {
     width: 50%;
     margin: 24px 0px 100px;
 }
-.facts-container{
+.facts-container, .sponsors-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px 5%;
@@ -248,4 +248,34 @@ h2 {
     margin: 0 auto;
     font-size: var(--fs-20);
     font-weight: 600;
+}
+
+/* our sponsors */
+.sponsor-section{
+    width: 80%;
+    margin: 0 auto 130px;
+    text-align: center;
+}
+.sponsor-section h1{
+    color: var(--dark-01);
+    font-size: var(--fs-45);
+}
+.sponsor-section p{
+    margin: 24px auto 50px;
+    width: 50%;
+    font-size: var(--fs-16);
+    line-height: 26px;
+    color: var(--dark-03);
+}
+
+.footer-section{
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    font-size: var(--fs-20);
+    color: var(--dark-02);
+    padding: 40px 20px;
+    line-height: 26px;
+    width: 80%;
+    margin: 0 auto 250px;
 }
