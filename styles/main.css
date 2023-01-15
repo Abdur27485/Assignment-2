@@ -2,8 +2,26 @@
     margin: 0px;
     padding: 0px;
 }
+
 body {
     font-family: 'Work Sans', sans-serif;
+}
+
+/* common styles */
+header h1,
+.quick-features-texts h1 span:nth-child(2),
+.sponsor-section h1,
+.facts-section h1,
+.features-details h1,
+.features-details h2 {
+    color: var(--dark-01);
+}
+
+.nav-links a,form::placeholder,.footer-section {
+    color: var(--dark-02);
+}
+button{
+    cursor: pointer;
 }
 
 /* CSS Variables */
@@ -28,7 +46,6 @@ header {
 }
 
 header h1 {
-    color: var(--dark-01);
     font-size: var(--fs-45);
 }
 
@@ -52,10 +69,13 @@ nav {
 }
 
 .nav-links a {
-    color: var(--dark-02);
     font-size: var(--fs-18);
     font-weight: 500;
     text-decoration: none;
+    transition: color 200ms ease-in-out;
+}
+.nav-links a:hover{
+    color: var(--bg-orangy);
 }
 
 .header-texts {
@@ -126,10 +146,6 @@ nav {
     color: var(--dark-03);
 }
 
-.quick-features-texts h1 span:nth-child(2) {
-    color: var(--dark-01);
-}
-
 .quick-features-texts h1 span:last-child {
     color: var(--bg-orangy);
 }
@@ -150,11 +166,6 @@ nav {
     grid-template-columns: repeat(2, 50%);
     align-items: center;
     gap: 40px;
-}
-
-.features-details h1,
-.features-details h2 {
-    color: var(--dark-01);
 }
 
 .features-details h1 {
@@ -222,7 +233,6 @@ nav {
 }
 
 .facts-section h1 {
-    color: var(--dark-01);
     font-size: var(--fs-45);
 }
 
@@ -270,7 +280,6 @@ nav {
 }
 
 .sponsor-section h1 {
-    color: var(--dark-01);
     font-size: var(--fs-45);
 }
 
@@ -294,22 +303,27 @@ nav {
     align-items: center;
     flex-wrap: wrap;
 }
-.newsletter-texts h1{
+
+.newsletter-texts h1 {
     font-size: 32px;
     margin-bottom: 18px;
 }
-.newsletter-texts p{
+
+.newsletter-texts p {
     font-size: var(--fs-18);
 }
-form input{
+
+form input {
     padding: 6px 10px;
     border: 2px solid var(--dark-03);
     font-size: var(--fs-16);
 }
-form input:focus{
+
+form input:focus {
     outline: none;
 }
-.form-btn{
+
+.form-btn {
     display: block;
     font-size: var(--fs-20);
     margin: 20px 0px 0px;
@@ -318,16 +332,13 @@ form input:focus{
     padding: 10px 32px;
     border-radius: 0px;
 }
-.form-btn:hover{
+
+.form-btn:hover {
     border-color: white;
     background-color: var(--bg-orangy);
     color: white;
     box-shadow: 4px 4px white;
 }
-form::placeholder{
-    color: var(--dark-02);
-}
-
 
 /* footer section */
 
@@ -336,7 +347,6 @@ form::placeholder{
     border-radius: 8px;
     text-align: center;
     font-size: var(--fs-20);
-    color: var(--dark-02);
     padding: 40px 20px;
     line-height: 26px;
     width: 80%;
